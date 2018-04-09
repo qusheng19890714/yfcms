@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laravel CMS',
+    'name' => 'YF CMS',
 
     /*
     |--------------------------------------------------------------------------
@@ -43,7 +43,7 @@ return [
     | This value is the title of your application. 
     */
 
-    'title' => 'Laravel CMS',
+    'title' => 'YF CMS',
 
     /*
     |--------------------------------------------------------------------------
@@ -73,7 +73,7 @@ return [
     | This github url of your application.
     */
 
-    'github' => 'https://coding.net/u/zotop/p/laravel_cms/git',
+    'github' => 'https://github.com/qusheng19890714/yfcms',
 
     /*
     |--------------------------------------------------------------------------
