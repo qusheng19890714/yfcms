@@ -1,0 +1,35 @@
+{
+    "name": "Core",
+    "alias": "core",
+    "title": "core::core.title",
+    "description": "core::core.description",
+    "keywords": [],
+    "version": "1.3.1",
+    "active": 1,
+    "installed": 1,
+    "order": "0",
+    "author": "Hankx.Chen",
+    "email": "",
+    "homepage": "",
+    "providers": [
+        "Modules\\Core\\Providers\\CoreServiceProvider",
+        "Modules\\Core\\Providers\\RouteServiceProvider",
+        "Modules\\Core\\Providers\\HookServiceProvider",
+        "Modules\\Core\\Providers\\ThemeServiceProvider",
+        "Modules\\Core\\Providers\\ViewServiceProvider",
+        "Modules\\Core\\Providers\\FormServiceProvider",
+        "Modules\\Core\\Providers\\FormatServiceProvider",
+        "JildertMiedema\\LaravelPlupload\\LaravelPluploadServiceProvider"
+    ],
+    "aliases": {
+        "Plupload": "JildertMiedema\\LaravelPlupload\\Facades\\Plupload",
+        "Format": "Modules\\Core\\Support\\Facades\\Format",
+        "Action": "Modules\\Core\\Support\\Facades\\Action",
+        "Filter": "Modules\\Core\\Support\\Facades\\Filter",
+        "Theme": "Modules\\Core\\Support\\Facades\\Theme"
+    },
+    "files": [
+        "start.php",
+        "helper.php"
+    ]
+}

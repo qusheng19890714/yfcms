@@ -1,0 +1,21 @@
+{
+    "name": "Region",
+    "alias": "region",
+    "title": "region::region.title",
+    "description": "region::region.description",
+    "keywords": [],
+    "version": "1.2.0",
+    "active": 1,
+    "installed": 1,
+    "order": 10,
+    "author": "zotop",
+    "email": "hankx_chen@qq.com",
+    "homepage": "http:\/\/www.zotop.com",
+    "providers": [
+        "Modules\\Region\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "zotop/region",
+    "description": "",
+    "authors": [
+        {
+            "name": "zotop team",
+            "email": "hankx_chen@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Region\\Providers\\RouteServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },    
+    "autoload": {
+        "psr-4": {
+            "Modules\\Region\\": ""
+        }
+    }
+}
