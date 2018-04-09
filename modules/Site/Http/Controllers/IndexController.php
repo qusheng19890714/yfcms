@@ -15,6 +15,6 @@ class IndexController extends FrontController
      */
     public function index()
     {
-        return $this->view('index');
+        return $this->view('app');
     }
 }
