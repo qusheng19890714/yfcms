@@ -13,13 +13,15 @@ return [
     'logout'      => '退出登录',
 
     //登录页面
-    'email'       => 'E-Mail Address',
-    'password'    => 'Password',
-    'remember_me' => 'Remember me',
-    'forgot_password' => 'Forgot your password ?',
+    'email'       => '邮件地址',
+    'password'    => '密码',
+    'remember_me' => '记住我',
+    'forgot_password' => '忘记密码 ?',
 
     //注册页面
-    'username' => 'User Name',
-    'password_confirm' => 'Passwrod Confirm',
-    'captcha' => 'Captcha'
+    'username' => '用户名',
+    'password_confirm' => '密码确认',
+    'captcha' => '验证码',
+    'edit_profile'      => '编辑资料',
+    'save' =>'保存'
 ];

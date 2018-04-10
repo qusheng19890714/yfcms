@@ -5,6 +5,7 @@ namespace Modules\Site\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Modules\Core\Base\FrontController;
+use Modules\Core\Http\Requests\UserRequest;
 use Modules\Core\Models\User;
 
 class UsersController extends FrontController
@@ -56,9 +57,9 @@ class UsersController extends FrontController
      *
      * @return Response
      */
-    public function edit($id)
+    public function edit(User $user)
     {
-        return $this->view();
+        return $this->view('users.edit', compact('user'));
     }
 
     /**
@@ -67,9 +68,11 @@ class UsersController extends FrontController
      * @param  Request $request
      * @return Response
      */
-    public function update(Request $request, $id)
+    public function update(UserRequest $request, User $user)
     {
-        //
+        $user->update($request->all());
+
+        return redirect()->route('users.show', $user->id)->with('success', '个人资料更新成功');
     }
 
     /**

@@ -40,7 +40,7 @@ class RegisterController extends FrontController
     {
         return Validator::make($data, [
 
-            'name'     => 'required|string|max:255',
+            'username'     => 'required|string|max:255',
             'email'    => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
             'captcha'  => 'required|captcha'
@@ -60,7 +60,7 @@ class RegisterController extends FrontController
     protected function create(array $data)
     {
         return User::create([
-            'username' => $data['name'],
+            'username' => $data['username'],
             'email' => $data['email'],
             'modelid' => 'user',
             'password' => bcrypt($data['password']),

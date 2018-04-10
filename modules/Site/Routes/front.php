@@ -25,7 +25,7 @@ $router->group(['prefix' =>'/','module'=>'site'], function (Router $router) {
     //用户
     $router->get('/users/{user}', 'UsersController@show')->name('users.show');
     $router->get('/users/{user}/edit', 'UsersController@edit')->name('users.edit');
-    $router->patch('/users/{user}', 'UsersController@update')->name('users.update');
+    $router->put('/users/{user}', 'UsersController@update')->name('users.update');
 
 
 });
