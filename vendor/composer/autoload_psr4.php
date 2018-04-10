@@ -40,6 +40,7 @@ return array(
     'Nwidart\\Modules\\' => array($vendorDir . '/nwidart/laravel-modules/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Modules\\' => array($baseDir . '/modules'),
+    'Mews\\Captcha\\' => array($vendorDir . '/mews/captcha/src'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
     'Laravel\\Tinker\\' => array($vendorDir . '/laravel/tinker/src'),
     'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),

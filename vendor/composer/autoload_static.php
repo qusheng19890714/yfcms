@@ -13,15 +13,16 @@ class ComposerStaticInitba8ed4648c2e13caab77ed52b3cba655
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
-        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
         '9f394da3192a168c4633675768d80428' => __DIR__ . '/..' . '/nwidart/laravel-modules/src/helpers.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
+        '5e8fe2a5ffaded85af682684fe3bbf5a' => __DIR__ . '/..' . '/mews/captcha/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -85,6 +86,7 @@ class ComposerStaticInitba8ed4648c2e13caab77ed52b3cba655
         array (
             'Monolog\\' => 8,
             'Modules\\' => 8,
+            'Mews\\Captcha\\' => 13,
         ),
         'L' => 
         array (
@@ -275,6 +277,10 @@ class ComposerStaticInitba8ed4648c2e13caab77ed52b3cba655
         'Modules\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules',
+        ),
+        'Mews\\Captcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mews/captcha/src',
         ),
         'League\\Flysystem\\' => 
         array (
@@ -468,6 +474,7 @@ class ComposerStaticInitba8ed4648c2e13caab77ed52b3cba655
         'Barryvdh\\Debugbar\\DataCollector\\SessionCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/SessionCollector.php',
         'Barryvdh\\Debugbar\\DataCollector\\ViewCollector' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataCollector/ViewCollector.php',
         'Barryvdh\\Debugbar\\DataFormatter\\QueryFormatter' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataFormatter/QueryFormatter.php',
+        'Barryvdh\\Debugbar\\DataFormatter\\SimpleFormatter' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/DataFormatter/SimpleFormatter.php',
         'Barryvdh\\Debugbar\\Facade' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Facade.php',
         'Barryvdh\\Debugbar\\JavascriptRenderer' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/JavascriptRenderer.php',
         'Barryvdh\\Debugbar\\LaravelDebugbar' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/LaravelDebugbar.php',
@@ -2559,6 +2566,11 @@ class ComposerStaticInitba8ed4648c2e13caab77ed52b3cba655
         'Maatwebsite\\Excel\\Readers\\LaravelExcelReader' => __DIR__ . '/..' . '/maatwebsite/excel/src/Maatwebsite/Excel/Readers/LaravelExcelReader.php',
         'Maatwebsite\\Excel\\Writers\\CellWriter' => __DIR__ . '/..' . '/maatwebsite/excel/src/Maatwebsite/Excel/Writers/CellWriter.php',
         'Maatwebsite\\Excel\\Writers\\LaravelExcelWriter' => __DIR__ . '/..' . '/maatwebsite/excel/src/Maatwebsite/Excel/Writers/LaravelExcelWriter.php',
+        'Mews\\Captcha\\Captcha' => __DIR__ . '/..' . '/mews/captcha/src/Captcha.php',
+        'Mews\\Captcha\\CaptchaController' => __DIR__ . '/..' . '/mews/captcha/src/CaptchaController.php',
+        'Mews\\Captcha\\CaptchaServiceProvider' => __DIR__ . '/..' . '/mews/captcha/src/CaptchaServiceProvider.php',
+        'Mews\\Captcha\\Facades\\Captcha' => __DIR__ . '/..' . '/mews/captcha/src/Facades/Captcha.php',
+        'Mews\\Captcha\\LumenCaptchaController' => __DIR__ . '/..' . '/mews/captcha/src/LumenCaptchaController.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -2725,17 +2737,13 @@ class ComposerStaticInitba8ed4648c2e13caab77ed52b3cba655
         'Modules\\Site\\Database\\Seeders\\SiteDatabaseSeeder' => __DIR__ . '/../..' . '/modules/Site/Database/Seeders/SiteDatabaseSeeder.php',
         'Modules\\Site\\Http\\Controllers\\Admin\\ConfigController' => __DIR__ . '/../..' . '/modules/Site/Http/Controllers/Admin/ConfigController.php',
         'Modules\\Site\\Http\\Controllers\\Admin\\IndexController' => __DIR__ . '/../..' . '/modules/Site/Http/Controllers/Admin/IndexController.php',
+        'Modules\\Site\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/modules/Site/Http/Controllers/Auth/ForgotPasswordController.php',
+        'Modules\\Site\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/modules/Site/Http/Controllers/Auth/LoginController.php',
+        'Modules\\Site\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/modules/Site/Http/Controllers/Auth/RegisterController.php',
+        'Modules\\Site\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/modules/Site/Http/Controllers/Auth/ResetPasswordController.php',
         'Modules\\Site\\Http\\Controllers\\IndexController' => __DIR__ . '/../..' . '/modules/Site/Http/Controllers/IndexController.php',
         'Modules\\Site\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/Site/Providers/RouteServiceProvider.php',
         'Modules\\Site\\Providers\\SiteServiceProvider' => __DIR__ . '/../..' . '/modules/Site/Providers/SiteServiceProvider.php',
-        'Modules\\Test\\Console\\TestCommand' => __DIR__ . '/../..' . '/modules/Test/Console/TestCommand.php',
-        'Modules\\Test\\Database\\Seeders\\TestDatabaseSeeder' => __DIR__ . '/../..' . '/modules/Test/Database/Seeders/TestDatabaseSeeder.php',
-        'Modules\\Test\\Http\\Controllers\\Admin\\TestController' => __DIR__ . '/../..' . '/modules/Test/Http/Controllers/Admin/TestController.php',
-        'Modules\\Test\\Http\\Controllers\\IndexController' => __DIR__ . '/../..' . '/modules/Test/Http/Controllers/IndexController.php',
-        'Modules\\Test\\Models\\Test' => __DIR__ . '/../..' . '/modules/Test/Models/Test.php',
-        'Modules\\Test\\Models\\TestAll' => __DIR__ . '/../..' . '/modules/Test/Models/TestAll.php',
-        'Modules\\Test\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/Test/Providers/RouteServiceProvider.php',
-        'Modules\\Test\\Providers\\TestServiceProvider' => __DIR__ . '/../..' . '/modules/Test/Providers/TestServiceProvider.php',
         'Monolog\\ErrorHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ErrorHandler.php',
         'Monolog\\Formatter\\ChromePHPFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php',
         'Monolog\\Formatter\\ElasticaFormatter' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php',
@@ -3275,7 +3283,7 @@ class ComposerStaticInitba8ed4648c2e13caab77ed52b3cba655
         'PHPUnit\\Util\\TestDox\\XmlResultPrinter' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/TestDox/XmlResultPrinter.php',
         'PHPUnit\\Util\\TextTestListRenderer' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/TextTestListRenderer.php',
         'PHPUnit\\Util\\Type' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Type.php',
-        'PHPUnit\\Util\\Xml' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Xml.php',
+        'PHPUnit\\Util\\Xml' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/XML.php',
         'PHPUnit\\Util\\XmlTestListRenderer' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/XmlTestListRenderer.php',
         'PHPUnit_Framework_MockObject_MockObject' => __DIR__ . '/..' . '/phpunit/phpunit-mock-objects/src/MockObject.php',
         'PHP_Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',

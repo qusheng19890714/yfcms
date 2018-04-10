@@ -136,7 +136,7 @@ class BaseController extends Controller
             return Theme::active($this->theme);
         });  
 
-        
+
         // 在主题对应模块下的目录中寻址
         $this->view->addLocation($this->app['current.theme']->path.'/views/'.strtolower($this->app['current.module']));
 

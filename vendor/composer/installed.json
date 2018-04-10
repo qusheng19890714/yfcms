@@ -4815,76 +4815,6 @@
         ]
     },
     {
-        "name": "barryvdh/laravel-debugbar",
-        "version": "v3.1.1",
-        "version_normalized": "3.1.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/barryvdh/laravel-debugbar.git",
-            "reference": "f0018d359a2ad6968ad11b283283a925e017f3c9"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://files.phpcomposer.com/files/barryvdh/laravel-debugbar/f0018d359a2ad6968ad11b283283a925e017f3c9.zip",
-            "reference": "f0018d359a2ad6968ad11b283283a925e017f3c9",
-            "shasum": ""
-        },
-        "require": {
-            "illuminate/routing": "5.5.x|5.6.x",
-            "illuminate/session": "5.5.x|5.6.x",
-            "illuminate/support": "5.5.x|5.6.x",
-            "maximebf/debugbar": "~1.15.0",
-            "php": ">=7.0",
-            "symfony/debug": "^3|^4",
-            "symfony/finder": "^3|^4"
-        },
-        "require-dev": {
-            "illuminate/framework": "5.5.x"
-        },
-        "time": "2018-02-07T08:29:09+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.2-dev"
-            },
-            "laravel": {
-                "providers": [
-                    "Barryvdh\\Debugbar\\ServiceProvider"
-                ],
-                "aliases": {
-                    "Debugbar": "Barryvdh\\Debugbar\\Facade"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Barryvdh\\Debugbar\\": "src/"
-            },
-            "files": [
-                "src/helpers.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Barry vd. Heuvel",
-                "email": "barryvdh@gmail.com"
-            }
-        ],
-        "description": "PHP Debugbar integration for Laravel",
-        "keywords": [
-            "debug",
-            "debugbar",
-            "laravel",
-            "profiler",
-            "webprofiler"
-        ]
-    },
-    {
         "name": "symfony/polyfill-util",
         "version": "v1.7.0",
         "version_normalized": "1.7.0.0",
@@ -5517,6 +5447,145 @@
             "phpdoc",
             "phpstorm",
             "sublime"
+        ]
+    },
+    {
+        "name": "barryvdh/laravel-debugbar",
+        "version": "v3.1.4",
+        "version_normalized": "3.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/barryvdh/laravel-debugbar.git",
+            "reference": "7a91480cc6e597caed5117a3c5d685f06d35c5a1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/barryvdh/laravel-debugbar/7a91480cc6e597caed5117a3c5d685f06d35c5a1.zip",
+            "reference": "7a91480cc6e597caed5117a3c5d685f06d35c5a1",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/routing": "5.5.x|5.6.x",
+            "illuminate/session": "5.5.x|5.6.x",
+            "illuminate/support": "5.5.x|5.6.x",
+            "maximebf/debugbar": "~1.15.0",
+            "php": ">=7.0",
+            "symfony/debug": "^3|^4",
+            "symfony/finder": "^3|^4"
+        },
+        "require-dev": {
+            "illuminate/framework": "5.5.x"
+        },
+        "time": "2018-03-06T08:35:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            },
+            "laravel": {
+                "providers": [
+                    "Barryvdh\\Debugbar\\ServiceProvider"
+                ],
+                "aliases": {
+                    "Debugbar": "Barryvdh\\Debugbar\\Facade"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Barryvdh\\Debugbar\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Barry vd. Heuvel",
+                "email": "barryvdh@gmail.com"
+            }
+        ],
+        "description": "PHP Debugbar integration for Laravel",
+        "keywords": [
+            "debug",
+            "debugbar",
+            "laravel",
+            "profiler",
+            "webprofiler"
+        ]
+    },
+    {
+        "name": "mews/captcha",
+        "version": "2.1.8",
+        "version_normalized": "2.1.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mewebstudio/captcha.git",
+            "reference": "5482c80def107c3ad149a64f13c46ebe9725f261"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/mewebstudio/captcha/5482c80def107c3ad149a64f13c46ebe9725f261.zip",
+            "reference": "5482c80def107c3ad149a64f13c46ebe9725f261",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "illuminate/config": "~5.0",
+            "illuminate/filesystem": "~5.0",
+            "illuminate/hashing": "~5.0",
+            "illuminate/support": "~5.0",
+            "intervention/image": "~2.2",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*",
+            "phpunit/phpunit": "~4.1"
+        },
+        "time": "2018-02-28T12:36:07+00:00",
+        "type": "package",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Mews\\Captcha\\CaptchaServiceProvider"
+                ],
+                "aliases": {
+                    "Captcha": "Mews\\Captcha\\Facades\\Captcha"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mews\\Captcha\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Muharrem ERİN",
+                "email": "me@mewebstudio.com",
+                "homepage": "https://github.com/mewebstudio",
+                "role": "Developer"
+            }
+        ],
+        "description": "Laravel 5 Captcha Package",
+        "homepage": "https://github.com/mewebstudio/captcha",
+        "keywords": [
+            "captcha",
+            "laravel5 Captcha",
+            "laravel5 Security"
         ]
     }
 ]
