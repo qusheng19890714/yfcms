@@ -2,72 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001f09ab-8e36-4856-b145-dcf702e6c3bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/views/site/auth/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/views/site/auth/passwords/email.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/views/site/auth/passwords/reset.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/views/site/auth/register.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/views/site/users/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Core/Base/BaseController.php" afterPath="$PROJECT_DIR$/modules/Core/Base/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Site/Resources/lang/en/site.php" afterPath="$PROJECT_DIR$/modules/Site/Resources/lang/en/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Site/Resources/lang/zh-Hans/site.php" afterPath="$PROJECT_DIR$/modules/Site/Resources/lang/zh-Hans/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Site/Resources/lang/zh-Hant/site.php" afterPath="$PROJECT_DIR$/modules/Site/Resources/lang/zh-Hant/site.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Site/Routes/front.php" afterPath="$PROJECT_DIR$/modules/Site/Routes/front.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/views/site/layouts/_header.blade.php" afterPath="$PROJECT_DIR$/themes/default/views/site/layouts/_header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/.gitignore" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/LICENSE" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/changelog.md" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/changelog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/composer.json" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/config/debugbar.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/config/debugbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/readme.md" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Console/ClearCommand.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Console/ClearCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/AssetController.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/AssetController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/BaseController.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/CacheController.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/CacheController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/OpenHandlerController.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Controllers/OpenHandlerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/CacheCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/CacheCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/EventCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/EventCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/FilesCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/FilesCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/GateCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/GateCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/LaravelCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/LaravelCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/LogsCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/LogsCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/MultiAuthCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/MultiAuthCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/QueryCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/QueryCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/RequestCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/RequestCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/RouteCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/RouteCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/SessionCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/SessionCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/ViewCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataCollector/ViewCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataFormatter/QueryFormatter.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/DataFormatter/QueryFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Facade.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Facade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/JavascriptRenderer.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/JavascriptRenderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/LaravelDebugbar.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/LaravelDebugbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/LumenServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/LumenServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Middleware/DebugbarEnabled.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Middleware/DebugbarEnabled.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/cache/widget.js" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/cache/widget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/laravel-debugbar.css" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/laravel-debugbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/sqlqueries/widget.js" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/sqlqueries/widget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/vendor/font-awesome/generator_config.txt" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/vendor/font-awesome/generator_config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/vendor/font-awesome/style.css" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Resources/vendor/font-awesome/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/ServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/ServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Storage/FilesystemStorage.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Storage/FilesystemStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Support/Clockwork/ClockworkCollector.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Support/Clockwork/ClockworkCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Support/Clockwork/Converter.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Support/Clockwork/Converter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/SymfonyHttpDriver.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/SymfonyHttpDriver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Extension/Debug.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Extension/Debug.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Extension/Dump.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Extension/Dump.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Extension/Stopwatch.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Extension/Stopwatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Node/StopwatchNode.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/Node/StopwatchNode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/TokenParser/StopwatchTokenParser.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/Twig/TokenParser/StopwatchTokenParser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/helpers.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php" afterPath="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar/src/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/views/site/auth/passwords/email.blade.php" afterPath="$PROJECT_DIR$/themes/default/views/site/auth/passwords/email.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/views/site/auth/passwords/reset.blade.php" afterPath="$PROJECT_DIR$/themes/default/views/site/auth/passwords/reset.blade.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,107 +32,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/Site/Http/Controllers/Auth/LoginController.php">
+      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/Site/Http/Controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.51369864">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
-                <element signature="e#54#104#0#PHP" expanded="true" />
+                <element signature="e#49#77#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/Site/Http/Controllers/Auth/RegisterController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="20.5">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding>
-                <element signature="e#54#100#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/login.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/register.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/default/views/site/layouts/_header.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40265486">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/Core/Models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#39#79#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistersUsers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForgotPasswordController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/Site/Http/Controllers/Auth/ForgotPasswordController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedirectIfAuthenticated.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/views/site/users/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.0">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#1308#1331#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/Site/Routes/front.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.125">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/Core/Routes/front.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/Core/Routes/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -229,8 +116,6 @@
         <option value="$PROJECT_DIR$/modules/Core/Http/Controllers/Admin/AuthController.php" />
         <option value="$PROJECT_DIR$/modules/Site/Resources/lang/en/site.php" />
         <option value="$PROJECT_DIR$/modules/Site/Resources/lang/zh-Hant/site.php" />
-        <option value="$PROJECT_DIR$/themes/default/views/site/auth/passwords/email.blade.php" />
-        <option value="$PROJECT_DIR$/themes/default/views/site/auth/passwords/reset.blade.php" />
         <option value="$PROJECT_DIR$/themes/default/views/site/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/modules/Site/Resources/lang/zh-Hans/site.php" />
         <option value="$PROJECT_DIR$/themes/default/views/site/auth/register.blade.php" />
@@ -240,12 +125,16 @@
         <option value="$PROJECT_DIR$/modules/Site/Http/Controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/modules/Site/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/modules/Core/Base/BaseController.php" />
-        <option value="$PROJECT_DIR$/modules/Site/Routes/front.php" />
         <option value="$PROJECT_DIR$/modules/Site/Http/Controllers/Auth/ResetPasswordController.php" />
         <option value="$PROJECT_DIR$/modules/Site/Http/Controllers/Auth/ForgotPasswordController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/modules/Site/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/themes/default/views/site/layouts/_header.blade.php" />
+        <option value="$PROJECT_DIR$/themes/default/views/site/auth/passwords/email.blade.php" />
+        <option value="$PROJECT_DIR$/themes/default/views/site/auth/passwords/reset.blade.php" />
+        <option value="$PROJECT_DIR$/modules/Site/Http/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/modules/Site/Routes/front.php" />
+        <option value="$PROJECT_DIR$/themes/default/views/site/users/show.blade.php" />
       </list>
     </option>
   </component>
@@ -422,37 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yf_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yf_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,6 +347,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yf_cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yf_cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -528,7 +401,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
+              <option name="myItemId" value="Routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,11 +423,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,15 +449,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yf_cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yf_cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -624,7 +519,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
+              <option name="myItemId" value="Routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -653,46 +548,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yf_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yf_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yf_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yf_cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Middleware" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -784,7 +639,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22778675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -795,7 +650,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -833,38 +688,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/Site/Resources/views/front/index/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/simple/views/site/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4166665">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/views/core/index/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88495576">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/Core/Routes/front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22123894">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
@@ -1044,22 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/passwords/reset.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-43.75">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/passwords/email.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9315069">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.06849315">
@@ -1115,7 +922,7 @@
         <state vertical-scroll-proportion="-8.125">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
-            <element signature="e#49#77#0#PHP" expanded="true" />
+            <element signature="e#49#77#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1132,14 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-49.52941">
           <caret line="241" column="9" selection-start-line="241" selection-start-column="9" selection-end-line="241" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/Site/Routes/front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1178,17 +977,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/Core/Models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
+        <state vertical-scroll-proportion="0.28761062">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
-            <element signature="e#39#79#0#PHP" expanded="true" />
+            <element signature="e#39#79#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4017094">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
@@ -1207,14 +1006,14 @@
         <state vertical-scroll-proportion="-6.875">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <element signature="e#54#104#0#PHP" expanded="true" />
+            <element signature="e#54#104#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
+        <state vertical-scroll-proportion="0.13274336">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
@@ -1225,23 +1024,23 @@
         <state vertical-scroll-proportion="20.5">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <element signature="e#54#100#0#PHP" expanded="true" />
+            <element signature="e#54#100#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/passwords/email.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/register.blade.php">
+    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/passwords/reset.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1251,6 +1050,66 @@
         <state vertical-scroll-proportion="0.40265486">
           <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/views/site/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48672566">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Core/Routes/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Core/Routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/views/site/users/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#1308#1331#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Site/Routes/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Site/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51369864">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="e#49#77#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -21,6 +21,13 @@ $router->group(['prefix' =>'/','module'=>'site'], function (Router $router) {
     $router->post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
     $router->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
     $router->post('password/reset', 'Auth\ResetPasswordController@reset');
+
+    //用户
+    $router->get('/users/{user}', 'UsersController@show')->name('users.show');
+    $router->get('/users/{user}/edit', 'UsersController@edit')->name('users.edit');
+    $router->patch('/users/{user}', 'UsersController@update')->name('users.update');
+
+
 });
 
 
