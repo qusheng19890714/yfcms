@@ -11,6 +11,14 @@ use Modules\Core\Support\AvatarUploadHander;
 
 class UsersController extends FrontController
 {
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->middleware('auth', ['except'=>['show']]);
+    }
+
     /**
      * 首页
      *
@@ -60,6 +68,7 @@ class UsersController extends FrontController
      */
     public function edit(User $user)
     {
+        $this->authorize('update', $user);
         return $this->view('users.edit', compact('user'));
     }
 
@@ -71,6 +80,8 @@ class UsersController extends FrontController
      */
     public function update(UserRequest $request, AvatarUploadHander $uploader,  User $user)
     {
+        $this->authorize('update', $user);
+        //abort()
         $data = $request->all();
 
         //头像
