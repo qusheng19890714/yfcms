@@ -23,5 +23,6 @@ return [
     'password_confirm' => '密码确认',
     'captcha' => '验证码',
     'edit_profile'      => '编辑资料',
+    'avatar' => '头像',
     'save' =>'保存'
 ];

@@ -194,7 +194,7 @@
  * {field type="upload_image" value="" button="Upload" resize="['width'=>1920,height=>800,quality=>100,crop=>false]" params=>"[]"}
  */
 \Form::macro('upload_image', function($attrs) {
-    
+
     // 标签预处理
     $attrs = Filter::fire('core.field.upload_image.attrs', $attrs);
     $attrs = $attrs + [

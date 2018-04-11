@@ -18,5 +18,6 @@ return [
     'password_confirm' => 'Passwrod Confirm',
     'captcha' => 'Captcha',
     'edit_profile'      => 'Edit Profile',
+    'avatar' => 'Avatar',
     'save'    => 'Save',
 ];

@@ -7,6 +7,7 @@ use Illuminate\Http\Response;
 use Modules\Core\Base\FrontController;
 use Modules\Core\Http\Requests\UserRequest;
 use Modules\Core\Models\User;
+use Modules\Core\Support\AvatarUploadHander;
 
 class UsersController extends FrontController
 {
@@ -68,9 +69,22 @@ class UsersController extends FrontController
      * @param  Request $request
      * @return Response
      */
-    public function update(UserRequest $request, User $user)
+    public function update(UserRequest $request, AvatarUploadHander $uploader,  User $user)
     {
-        $user->update($request->all());
+        $data = $request->all();
+
+        //头像
+        if ($avatar = $request->avatar) {
+
+            $result = $uploader->save($avatar, $user->id, 362);
+
+            if ($result) {
+
+                $data['avatar'] = $result['path'];
+            }
+        }
+
+        $user->update($data);
 
         return redirect()->route('users.show', $user->id)->with('success', '个人资料更新成功');
     }
